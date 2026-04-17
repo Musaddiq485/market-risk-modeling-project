@@ -1,98 +1,65 @@
-{
- "cells": [
-  {
-   "cell_type": "markdown",
-   "id": "46be67b9-3a3a-461c-88d8-b073929bbc50",
-   "metadata": {},
-   "source": [
-    "# Market Risk Modeling and Backtesting Framework\n",
-    "\n",
-    "## Overview\n",
-    "\n",
-    "This project develops a market risk framework in Python to estimate and evaluate portfolio risk. \n",
-    "The focus is on Value-at-Risk (VaR), Expected Shortfall (ES), and model validation using backtesting techniques.\n",
-    "\n",
-    "The analysis reflects practical approaches used in financial risk management.\n",
-    "\n",
-    "---\n",
-    "\n",
-    "## Objectives\n",
-    "\n",
-    "- Construct a diversified portfolio\n",
-    "- Estimate risk using Value-at-Risk models\n",
-    "- Evaluate model performance using backtesting\n",
-    "- Analyze extreme losses using Expected Shortfall\n",
-    "- Study time-varying risk using rolling VaR\n",
-    "\n",
-    "---\n",
-    "\n",
-    "## Methodology\n",
-    "\n",
-    "### 1. Data and Portfolio Construction\n",
-    "- Simulated financial dataset\n",
-    "- Log return computation\n",
-    "- Equal-weight portfolio\n",
-    "\n",
-    "### 2. Risk Models\n",
-    "- Historical VaR\n",
-    "- Parametric (Normal) VaR\n",
-    "\n",
-    "### 3. Backtesting\n",
-    "- Violation analysis\n",
-    "- Kupiec test for model validation\n",
-    "\n",
-    "### 4. Tail Risk\n",
-    "- Expected Shortfall (ES)\n",
-    "\n",
-    "### 5. Dynamic Risk\n",
-    "- Rolling VaR (time-varying risk)\n",
-    "\n",
-    "---\n",
-    "\n",
-    "## Key Results\n",
-    "\n",
-    "- VaR provides a simple estimate of potential losses\n",
-    "- Expected Shortfall captures extreme losses beyond VaR\n",
-    "- Backtesting confirms whether models are reliable\n",
-    "- Rolling VaR shows that risk changes over time\n",
-    "\n",
-    "---\n",
-    "\n",
-    "## Tools\n",
-    "\n",
-    "- Python\n",
-    "- Pandas, NumPy\n",
-    "- Matplotlib\n",
-    "- SciPy\n",
-    "\n",
-    "---\n",
-    "\n",
-    "## Author\n",
-    "\n",
-    "Musaddiq Shafique  \n",
-    "M.Sc. Quantitative Finance – University of Kiel"
-   ]
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "CompFin",
-   "language": "python",
-   "name": "compfin"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": "3.12.3"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 5
-}
+# Market Risk Modeling and Backtesting Framework
+
+## Overview
+
+This project develops a market risk framework in Python to estimate and evaluate portfolio risk.  
+The focus is on Value-at-Risk (VaR), Expected Shortfall (ES), and model validation using backtesting techniques.
+
+The analysis reflects practical approaches used in financial risk management.
+
+## Project Motivation
+
+Understanding and quantifying financial risk is essential in modern financial markets.  
+This project aims to bridge theoretical knowledge from quantitative finance with practical implementation using Python.
+
+It demonstrates how risk models are built, evaluated, and interpreted in a practical setting.
+
+## Objectives
+
+- Construct a diversified portfolio
+- Estimate risk using Value-at-Risk models
+- Evaluate model performance using backtesting
+- Analyze extreme losses using Expected Shortfall
+- Study time-varying risk using rolling VaR
+
+## Methodology
+
+### 1. Data and Portfolio Construction
+- Simulated financial dataset
+- Log return computation
+- Equal-weight portfolio
+
+### 2. Risk Models
+- Historical VaR
+- Parametric (Normal) VaR
+
+### 3. Backtesting
+- Violation analysis
+- Kupiec test for model validation
+
+### 4. Tail Risk
+- Expected Shortfall (ES)
+
+### 5. Dynamic Risk
+- Rolling VaR (time-varying risk)
+
+## Key Results
+
+- VaR provides a simple estimate of potential losses
+- Expected Shortfall captures extreme losses beyond VaR
+- Backtesting confirms whether models are reliable
+- Rolling VaR shows that risk changes over time
+
+## Tools
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- SciPy
+- Jupyter Notebook
+
+## Author
+
+Musaddiq Shafique  
+M.Sc. Quantitative Finance – University of Kiel
